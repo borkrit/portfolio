@@ -1,0 +1,26 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #20202D;
+    margin: 0;
+}
+.container{
+    max-width: 945px;
+    margin:auto;
+    
+}
+
+.hero{
+    padding-top: 50px;
+}
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-link{
+    margin-left: 20px;  
+}
