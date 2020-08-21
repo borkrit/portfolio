@@ -89,7 +89,7 @@ body{
     width: 389px;
     height: 389px;
     border-radius: 50%;
-    background-image: url('/img/av.jpg');
+    background-image: url('../img/av.jpg');
     background-repeat: no-repeat;
     background-position: center top -290px ;
     border: 13px solid white;
@@ -131,6 +131,57 @@ body{
 }
 
 
+/* Projects */
+
+.projects{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.project-slide{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project-text{
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-title{
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+
+.project-time, .project-coast{
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+.project-time, .project-coast, .project-feedback{
+    display: flex;
+    align-items: flex-start;
+}
+.project-subtitle{
+    margin: 0;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.project-paragraph{
+    margin: 0;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.project-icon{
+    margin-right: 16px;
+}
 /* Contacts */
 
 .contacts-block{
@@ -171,13 +222,13 @@ body{
 }
 .input-name{
     
-    background-image: url('/img/user-icon.svg');
+    background-image: url('../img/user-icon.svg');
     background-repeat: no-repeat;
     background-position: center left 20px;
     margin-bottom: 17px;
 }
 .input-phone{
-    background-image: url('/img/phone-icon.svg');
+    background-image: url('../img/phone-icon.svg');
     background-repeat: no-repeat;
     background-position: center left 20px;
     margin-bottom: 17px;
@@ -230,4 +281,26 @@ body{
     text-decoration-line: underline;
     color: #A5A5A5;
     margin-top: 72px;
+}
+
+
+
+.projects-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.projects-bullet{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.projects-bullet-active{
+    background-color: #FFBB01;
 }
