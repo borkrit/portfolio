@@ -89,7 +89,7 @@ body{
     width: 389px;
     height: 389px;
     border-radius: 50%;
-    background-image: url('./img/av.jpg');
+    background-image: url('../img/av.jpg');
     background-repeat: no-repeat;
     background-position: center top -290px ;
     border: 13px solid white;
@@ -171,13 +171,13 @@ body{
 }
 .input-name{
     
-    background-image: url('./img/user-icon.svg');
+    background-image: url('../img/user-icon.svg');
     background-repeat: no-repeat;
     background-position: center left 20px;
     margin-bottom: 17px;
 }
 .input-phone{
-    background-image: url('./img/phone-icon.svg');
+    background-image: url('../img/phone-icon.svg');
     background-repeat: no-repeat;
     background-position: center left 20px;
     margin-bottom: 17px;
