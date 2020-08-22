@@ -96,7 +96,8 @@ img{
     border-radius: 50%;
     background-image: url('../img/av.jpg');
     background-repeat: no-repeat;
-    background-position: center top -290px ;
+    background-position: center top -126px ;
+    background-size: cover;
     border: 13px solid white;
 }
 
@@ -329,7 +330,7 @@ img{
 
 @media (max-width:836px){
     .hero-content{
-        flex-direction: row;
+        flex-direction: column;
     }
     
     .hero-avatar{
@@ -337,6 +338,8 @@ img{
         width: 300px;
         height: 300px;
         margin-bottom: 17px;
+        background-position: center top -37px;
+        background-size: cover;
     }
 
     .hero-text{
@@ -345,12 +348,12 @@ img{
     }
 
     .features-item{
-        flex-basis: 45px;
+        flex-basis: 45%;
     }
-    .projects-slide{
+    .project-slide{
         flex-direction: column;
     }
-    .project-image{
+    .project-img{
         margin-bottom: 46px;
     }
 
